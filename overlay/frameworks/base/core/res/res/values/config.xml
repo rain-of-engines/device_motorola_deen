@@ -478,4 +478,10 @@
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
         M -188,0 L -188,72 L 188,72 L 188,0 Z
     </string>
+
+    <!-- Controls the navigation bar interaction mode:
+         0: 3 button mode (back, home, overview buttons)
+         1: 2 button mode (back, home buttons + swipe up for overview)
+         2: gestures only for back, home and overview -->
+    <integer name="config_navBarInteractionMode">2</integer>
 </resources>
