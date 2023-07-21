@@ -24,6 +24,7 @@
 
 $(call inherit-product, vendor/motorola/deen/deen-vendor.mk)
 
+$(call inherit-product-if-exists, ih8sn/product.mk)
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
