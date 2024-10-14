@@ -35,6 +35,10 @@ ro.qualcomm.cabl=0
 dalvik.vm.dex2oat64.enabled=true
 ro.sys.fw.dex2oat_thread_count=8
 
+# Disable Blur
+ro.sf.blurs_are_expensive=0
+ro.surface_flinger.supports_background_blur=0
+
 # Display
 ro.sf.hwc_set_default_colormode=true
 
